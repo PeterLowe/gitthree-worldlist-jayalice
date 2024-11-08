@@ -23,7 +23,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to C or N to N or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or M to O or Z to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -60,49 +60,95 @@ int main()
 
 	switch (letter) // Start of Jay's code
 	{
-		case 'b':
-		case 'B':
-			switch (region)
-			{
-				case 1:
-					std::cout << "Belize, Bermuda, Bolivia, Brazil" << std::endl;
-					break;
-				case 2:
-					std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
-					break;
-				case 3:
-					std::cout << "Benin, Botswania, Burkina Faso, Burundi" << std::endl;
-					break;
-				case 4:
-					std::cout << "Bangladesh, Bhutan, Brunei Darussalam" << std::endl;
-					break;
-				case 5:
-					std::cout << "Bahamas, Bahrain Arabian Peninsula, Barbados" << std::endl;
-					break;
-			}
+	case 'b':
+	case 'B':
+		switch (region)
+		{
+		case 1:
+			std::cout << "Belize, Bermuda, Bolivia, Brazil" << std::endl;
 			break;
-		case 'c':
-		case 'C':
-			switch (region)
-			{
-				case 1:
-					std::cout << "Canada, Chile, Colombia, Costa Rica" << std::endl;
-					break;
-				case 2:
-					std::cout << "Croatia, Czech Republic" << std::endl;
-					break;
-				case 3:
-					std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Congo, Cote D'ivoire" << std::endl;
-					break;
-				case 4:
-					std::cout << "Cambodia, China, Christma Island, Cocos Islands, Cyprus" << std::endl;
-					break;
-				case 5:
-					std::cout << "Cayman Islands, Cocos Islands, Cook Islands, Cuba" << std::endl;
-					break;
-			}
+		case 2:
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+			break;
+		case 3:
+			std::cout << "Benin, Botswania, Burkina Faso, Burundi" << std::endl;
+			break;
+		case 4:
+			std::cout << "Bangladesh, Bhutan, Brunei Darussalam" << std::endl;
+			break;
+		case 5:
+			std::cout << "Bahamas, Bahrain Arabian Peninsula, Barbados" << std::endl;
+			break;
+		}
+		break;
+	case 'c':
+	case 'C':
+		switch (region)
+		{
+		case 1:
+			std::cout << "Canada, Chile, Colombia, Costa Rica" << std::endl;
+			break;
+		case 2:
+			std::cout << "Croatia, Czech Republic" << std::endl;
+			break;
+		case 3:
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Congo, Cote D'ivoire" << std::endl;
+			break;
+		case 4:
+			std::cout << "Cambodia, China, Christma Island, Cocos Islands, Cyprus" << std::endl;
+			break;
+		case 5:
+			std::cout << "Cayman Islands, Cocos Islands, Cook Islands, Cuba" << std::endl;
+			break;
+		}
 	} // End of Jay's code
 
+	if (letter == 'l' || letter == 'L') //Written by Conor
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Ls in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Latvia, Liechtenstein, Lithuania, Luxemborg" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Lesotho, Liberia, Libya" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Lao, Lebanon" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Ls in the rest of the World" << std::endl;
+		}
+	}
+	if (letter == 'm' || letter == 'M') //Written by Conor
+	{
+		if (region == 1)
+		{
+			std::cout << "Martinique, Mexico, Montserrat" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Malta, Moldova, Monaco, Montenegro" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Madagascar, Malawi, Nali, Mauritania, Mauritius, Mayotte, Morocco, Mozambique" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Macau, Malaysia, Maldives, Mongolia, Myanmar" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Marshall islands, Micronesia" << std::endl;
+		}
+	}
 	if (letter == 'n' || letter == 'N') //Written by Conor
 	{
 		if (region == 1)
@@ -126,7 +172,60 @@ int main()
 			std::cout << "Nauru, New Caledonia Melanesia, Niuen, North Marian islands" << std::endl;
 		}
 	}
-	if (letter == 'z' || letter == 'Z') // written by Pete
+	if (letter == 'o' || letter == 'O')//Written by Conor
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Os in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Os in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Os in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Oman" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Os in the rest of the World" << std::endl;
+		} 
+	}
+	else if (letter == 'x' || letter == 'X')
+	{
+		std::cout << "There are no contries beginning with x in the whole world" << std::endl;
+	}
+
+
+	else if (letter == 'y' || letter == 'Y')
+	{
+		switch (region)
+		{
+		case 1:
+			std::cout << "There are no Ys in the Americas" << std::endl;
+			break;
+		case 2:
+			std::cout << "There are no Ys in Europe" << std::endl;
+			break;
+		case 3:
+			std::cout << "There are no Ys in Africa" << std::endl;
+			break;
+		case 4:
+			std::cout << "Yemen" << std::endl;
+			break;
+		case 5:
+			std::cout << "There are no Ys in the rest of the world" << std::endl;
+			break;
+
+		}
+
+
+	}
+	 else if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
 		{
@@ -148,30 +247,6 @@ int main()
 		{
 			std::cout << "There are no Zs in rest of the world" << std::endl;
 		}
-
-	}
-	else if (letter == 'y' || letter == 'Y')
-	{
-		switch (region)
-		{
-			case 1:
-				std::cout << "There are no Ys in the Americas" << std::endl;
-				break;
-			case 2:
-				std::cout << "There are no Ys in Europe" << std::endl;
-				break;
-			case 3:
-				std::cout << "There are no Ys in Africa" << std::endl;
-				break;
-			case 4:
-				std::cout << "Yemen" << std::endl; 
-				break;
-			case 5:
-				std::cout << "There are no Ys in the rest of the world" << std::endl;
-				break;
-
-		}
-			
 
 	}
 	
