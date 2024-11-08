@@ -23,7 +23,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to B or N to N or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or N to N or Y to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -81,6 +81,26 @@ int main()
 					break;
 			}
 			break;
+		case 'c':
+		case 'C':
+			switch (region)
+			{
+				case 1:
+					std::cout << "Canada, Chile, Colombia, Costa Rica" << std::endl;
+					break;
+				case 2:
+					std::cout << "Croatia, Czech Republic" << std::endl;
+					break;
+				case 3:
+					std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Congo, Cote D'ivoire" << std::endl;
+					break;
+				case 4:
+					std::cout << "Cambodia, China, Christma Island, Cocos Islands, Cyprus" << std::endl;
+					break;
+				case 5:
+					std::cout << "Cayman Islands, Cocos Islands, Cook Islands, Cuba" << std::endl;
+					break;
+			}
 	} // End of Jay's code
 
 	if (letter == 'n' || letter == 'N') //Written by Conor
