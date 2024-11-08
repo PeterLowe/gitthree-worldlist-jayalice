@@ -175,32 +175,6 @@ int main()
 
 		}
 	}
-		
-	
-
-	else if (letter == 'w' || letter == 'W') // Written By Alice
-	{
-		switch (region)
-		{
-			case 1:
-				std::cout << "There are no Ws in the Americas" << std::endl;
-				break;
-			case 2:
-				std::cout << "There are no Ws in Europe" << std::endl;
-				break;
-			case 3:
-				std::cout << "Western Sahara" << std::endl;
-				break;
-			case 4:
-				std::cout << "There are no Ws in Asia" << std::endl;
-				break;
-			case 5:
-				std::cout << "Wallis and Futunia" << std::endl;
-				break;
-			default:
-				break;
-		}
-	}
 	if (letter == 'o' || letter == 'O')//Written by Conor
 	{
 		if (region == 1)
@@ -224,6 +198,31 @@ int main()
 			std::cout << "There are no Os in the rest of the World" << std::endl;
 		} 
 	}
+
+	else if (letter == 'w' || letter == 'W') // Written By Alice
+	{
+		switch (region)
+		{
+		case 1:
+			std::cout << "There are no Ws in the Americas" << std::endl;
+			break;
+		case 2:
+			std::cout << "There are no Ws in Europe" << std::endl;
+			break;
+		case 3:
+			std::cout << "Western Sahara" << std::endl;
+			break;
+		case 4:
+			std::cout << "There are no Ws in Asia" << std::endl;
+			break;
+		case 5:
+			std::cout << "Wallis and Futunia" << std::endl;
+			break;
+		default:
+			break;
+		}
+	}
+
 	else if (letter == 'x' || letter == 'X')
 	{
 		std::cout << "There are no contries beginning with x in the whole world" << std::endl;
