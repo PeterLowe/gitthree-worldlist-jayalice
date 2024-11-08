@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or N to N or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or M or N to N or Z to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -55,6 +55,29 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+	if (letter == 'm' || letter == 'M') //Written by COnor
+	{
+		if (region == 1)
+		{
+			std::cout << "Martinique, Mexico, Montserrat" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Malta, Moldova, Monaco, Montenegro" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Madagascar, Malawi, Nali, Mauritania, Mauritius, Mayotte, Morocco, Mozambique" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Macau, Malaysia, Maldives, Mongolia, Myanmar" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Marshall islands, Micronesia" << std::endl;
+		}
+	}
 	if (letter == 'n' || letter == 'N') //Written by Conor
 	{
 		if (region == 1)
