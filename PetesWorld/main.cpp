@@ -1,8 +1,13 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
+<<<<<<< HEAD
 // Alice Timmins
 //  or here
+=======
+// Jay
+// 
+>>>>>>> 233ae6e8bf2600947461d3cdf997f7092ae794ce
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
