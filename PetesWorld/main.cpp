@@ -57,8 +57,30 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
-
-	if (letter == 'm' || letter == 'M') //Written by COnor
+	if (letter == 'l' || letter == 'L') //Written by Conor
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Ls in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Latvia, Liechtenstein, Lithuania, Luxemborg" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Lesotho, Liberia, Libya" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Lao, Lebanon" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Ls in the rest of the World" << std::endl;
+		}
+	}
+	if (letter == 'm' || letter == 'M') //Written by Conor
 	{
 		if (region == 1)
 		{
@@ -128,15 +150,40 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Nauru, New Caledonia Melanesia, Niuen, North Marian islands" << std::endl;
-}
 
-	else if (letter == 'x' || letter == 'X')
+
+		}
+	}
+	if (letter == 'o' || letter == 'O')//Written by Conor
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Os in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Os in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Os in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Oman" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Os in the rest of the World" << std::endl;
+		} 
+	}
+	else if (letter == 'x' || letter == 'X') // Written By Alice
 	{
 		std::cout << "There are no contries beginning with x in the whole world" << std::endl;
 	}
 
 
-	else if (letter == 'y' || letter == 'Y')
+	else if (letter == 'y' || letter == 'Y') // Writen By Alice
 	{
 		switch (region)
 		{
