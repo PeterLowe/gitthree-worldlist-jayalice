@@ -58,6 +58,30 @@ int main()
 		}
 	}	
 
+	if (letter == 'm' || letter == 'M') //Written by COnor
+	{
+		if (region == 1)
+		{
+			std::cout << "Martinique, Mexico, Montserrat" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Malta, Moldova, Monaco, Montenegro" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Madagascar, Malawi, Nali, Mauritania, Mauritius, Mayotte, Morocco, Mozambique" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Macau, Malaysia, Maldives, Mongolia, Myanmar" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Marshall islands, Micronesia" << std::endl;
+		}
+	}
+
 	switch (letter) // Start of Jay's code
 	{
 		case 'b':
