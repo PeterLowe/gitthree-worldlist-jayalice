@@ -2,7 +2,7 @@
 // date November 2022
 // author Pete Lowe
 // Jay
-// 
+// Conor
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -22,7 +22,8 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to B or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to B or N to N or Z to Z" << std::endl; // change this line each iteration
+
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -81,6 +82,29 @@ int main()
 			break;
 	} // End of Jay's code
 
+	if (letter == 'n' || letter == 'N') //Written by Conor
+	{
+		if (region == 1)
+		{
+			std::cout << "Nicaragua, Netherlands Antilles" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Norway, North Macedonia, Netherlands" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Namibia, Niger, Nigeria" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Nepal" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Nauru, New Caledonia Melanesia, Niuen, North Marian islands" << std::endl;
+		}
+	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
