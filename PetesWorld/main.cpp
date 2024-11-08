@@ -128,31 +128,8 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Nauru, New Caledonia Melanesia, Niuen, North Marian islands" << std::endl;
-		}
-	}
-	if (letter == 'o' || letter == 'O')
-	{
-		if (region == 1)
-		{
-			std::cout << "There are no Os in the Americas" << std::endl;
-		}
-		if (region == 2)
-		{
-			std::cout << "There are no Os in Europe" << std::endl;
-		}
-		if (region == 3)
-		{
-			std::cout << "There are no Os in Africa" << std::endl;
-		}
-		if (region == 4)
-		{
-			std::cout << "Oman" << std::endl;
-		}
-		if (region == 5)
-		{
-			std::cout << "There are no Os in the rest of the World" << std::endl;
-		} 
-	}
+}
+
 	else if (letter == 'x' || letter == 'X')
 	{
 		std::cout << "There are no contries beginning with x in the whole world" << std::endl;
