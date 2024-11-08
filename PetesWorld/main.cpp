@@ -1,6 +1,7 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
+// Alice Timmins
 // Jay
 // Conor
 // estimated time 120 minutes
@@ -129,7 +130,30 @@ int main()
 		}
 
 	}
-	
+	else if (letter == 'y' || letter == 'Y')
+	{
+		switch (region)
+		{
+			case 1:
+				std::cout << "There are no Ys in the Americas" << std::endl;
+				break;
+			case 2:
+				std::cout << "There are no Ys in Europe" << std::endl;
+				break;
+			case 3:
+				std::cout << "There are no Ys in Africa" << std::endl;
+				break;
+			case 4:
+				std::cout << "Yemen" << std::endl; 
+				break;
+			case 5:
+				std::cout << "There are no Ys in the rest of the world" << std::endl;
+				break;
+
+		}
+			
+
+	}
 	
 	
 	return 1;
