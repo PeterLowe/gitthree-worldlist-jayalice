@@ -79,7 +79,30 @@ int main()
 		}
 
 	}
-	
+	if (letter == 'y' || letter == 'Y')
+	{
+		switch (region)
+		{
+			case 1:
+				std::cout << "There are no Ys in the Americas" << std::endl;
+				break;
+			case 2:
+				std::cout << "There are no Ys in Europe" << std::endl;
+				break;
+			case 3:
+				std::cout << "There are no Ys in Africs" << std::endl;
+				break;
+			case 4:
+				std::cout << "Yemen" << std::endl;
+				break;
+			case 5:
+				std::cout << "There are no Ys in the rest of the world" << std::endl;
+				break;
+			default:
+				break;
+
+		}
+	}
 	
 	
 	return 1;
