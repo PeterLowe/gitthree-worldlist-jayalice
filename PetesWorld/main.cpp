@@ -139,6 +139,10 @@ int main()
 			
 
 	}
+	else if (letter == 'x' || letter == 'X')
+	{
+		std::cout << "There are no contries beginning with x in the whole world" << std::endl;
+	}
 	
 	
 	return 1;
