@@ -1,17 +1,12 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-<<<<<<< HEAD
 // Alice Timmins
 //  or here
-=======
 // Jay
-<<<<<<< HEAD
 // 
->>>>>>> 233ae6e8bf2600947461d3cdf997f7092ae794ce
-=======
 // Conor
->>>>>>> c6d992d20ff5d02d17990dc750214d09b81e9c6a
+
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -64,9 +59,6 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
-<<<<<<< HEAD
-	else if (letter == 'z' || letter == 'Z') // written by Pete
-=======
 	if (letter == 'n' || letter == 'N') //Written by Conor
 	{
 		if (region == 1)
@@ -91,7 +83,6 @@ int main()
 		}
 	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
->>>>>>> c6d992d20ff5d02d17990dc750214d09b81e9c6a
 	{
 		if (region == 1)
 		{
